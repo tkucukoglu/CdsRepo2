@@ -1,0 +1,16 @@
+{
+  "name": "cpapp",
+
+  "cds": {
+      "requires": {
+          "[production]": {
+              "db": {
+                  "kind": "hana-cloud"
+              }
+          },
+          "db": {
+              "kind": "sql"
+          }
+      }
+  }
+}

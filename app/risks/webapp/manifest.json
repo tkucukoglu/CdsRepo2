@@ -1,0 +1,23 @@
+{
+    ...
+    "sap.app": {
+      "id": "ns.risks",
+      ...
+      "sourceTemplate": {
+        ...
+      },
+      "crossNavigation": {
+        "inbounds": {
+          "Risks-display": {
+            "signature": {
+              "parameters": {},
+              "additionalParameters": "allowed"
+            },
+            "semanticObject": "Risks",
+            "action": "display"
+          }
+        }
+      }
+    }
+  }
+  
